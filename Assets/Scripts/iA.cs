@@ -91,9 +91,9 @@ public class iA : MonoBehaviour
     {
         if (other.gameObject.CompareTag("ennemy"))
         {
-            var damage = other.gameObject.GetComponent<attack>();
+            var damage = other.gameObject.GetComponent<DamageTouch>();
 
-            _lifes.TakeDamage(damage.Damage);
+            _lifes.TakeDamage(damage);
         }
         else
         {
