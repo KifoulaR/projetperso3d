@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class Lifes : MonoBehaviour
 {
+    [SerializeField] int _moovespeed;
     [SerializeField] bool _isPlayer;
     [SerializeField] int _scoreOnDeath;
     [SerializeField] bool _isEnemy;

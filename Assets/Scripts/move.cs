@@ -84,7 +84,10 @@ public class move : MonoBehaviour
         {
             _animator.SetBool("isJumping", false);
         }
-
+        if( !groundedPlayer)
+        {
+            _ = ("isWalking", true);
+        }
        
     }
    
